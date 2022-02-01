@@ -36,14 +36,10 @@ pip can be installed under Ubuntu by executing the following commands:
   > sudo apt install python3-pip 
 
 The dependencies can be installed by executing the following commands:
-  > pip install pysam
-  > 
-  > pip install pyqt5 
-  > 
-  > pip install matplotlib 
+  > pip install pysam pyqt5 matplotlib
 
 #### Installing ILVT
-1. Clone ILVT to your location (e.g., under your /home directory)
+1. Clone ILVT to your target location (e.g., under your /home directory)
      > cd ~
      > 
      > git clone https://github.com/jaclew/ILVT

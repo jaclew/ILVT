@@ -3,20 +3,27 @@
 ## Table of Contents
 * [Introduction](https://github.com/jaclew/IVLT/#introduction)
 * [Installation](https://github.com/jaclew/IVLT/#installation)
-* - [Linux](https://github.com/jaclew/IVLT/#installation-linux)
-* - [Windows](https://github.com/jaclew/IVLT/#installation-windows)
-* [Test](https://github.com/jaclew/IVLT/#test)
+* - [Linux](https://github.com/jaclew/IVLT/#installing-on-linux)
+* - [Windows](https://github.com/jaclew/IVLT/#installing-on-windows)
+* [Manual](https://github.com/jaclew/IVLT/#manual)
+* [Citation](https://github.com/jaclew/IVLT/#citation)
+* [Licence](https://github.com/jaclew/IVLT/#licence)
 
 
 ## Introduction
 Interactive Long-Read Visualization Tool
 
 ## Installation
-Asd1
-### Installation (Linux)
+ILVT runs on Linux natively and can be run under Windows Subsystem for Linux (WSL).
+
+### Installing on Linux
 Asd2
-### Installation (Windows)
+
+### Installing on Windows
 Asd3
+
+## Manual
+Documentation and example use cases are available in the <a href="https://github.com/jaclew/ILVT/reference_manual.docx" target="_blank">reference manual</a>.
 
 ## Citation
 If you use ILVT in your research, please site the following publication:

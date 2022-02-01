@@ -18,5 +18,10 @@ Asd2
 ### Installation (Windows)
 Asd3
 
-## Test
-Asd
+## Citation
+If you use ILVT in your research, please site the following publication:
+> Auth1, Auth2, Auth3, Auth4
+> *Journal*, **Volume**:<pages>. [doi:<DOI_link>][doi]
+
+## Licence
+GNU General Public License, version 3

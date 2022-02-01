@@ -45,6 +45,7 @@ The dependencies can be installed by executing the following commands:
 #### Installing ILVT
 1. Clone ILVT to your location (e.g., under your /home directory)
      > cd ~
+     > 
      > git clone https://github.com/jaclew/ILVT
 2. Launching ILVT
    * Go to your ILVT folder

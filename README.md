@@ -41,7 +41,7 @@ The dependencies can be installed by executing the following commands:
    * > git clone https://github.com/jaclew/ILVT
 2. Launching ILVT
    * Go to your ILVT folder
-     * > cd ILVT
+       > cd ILVT
    * > Launch with Python 3
      * > python read_painter.py
 

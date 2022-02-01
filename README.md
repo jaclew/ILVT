@@ -76,6 +76,8 @@ Follow below instructions to install on Windows.
 Launch ILVT with Python version 3 by executing the following command:
 > python <path_to_ILVT>/read_painter.py
 
+If you run on Windows and using WSL, make sure you have started the X-server (for instructions above).
+
 ## Manual
 Documentation and example use cases are available in the <a href="https://github.com/jaclew/IVLT/raw/main/reference_manual.docx" target="_blank">reference manual</a>.
 

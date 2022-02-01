@@ -3,8 +3,8 @@
 ## Table of Contents
 * [Introduction](https://github.com/jaclew/IVLT/#introduction)
 * [Installation](https://github.com/jaclew/IVLT/#installation)
-- [Linux](https://github.com/jaclew/IVLT/#installing-on-linux)
-- [Windows](https://github.com/jaclew/IVLT/#installing-on-windows)
+  - [Linux](https://github.com/jaclew/IVLT/#installing-on-linux)
+  - [Windows](https://github.com/jaclew/IVLT/#installing-on-windows)
 * [Manual](https://github.com/jaclew/IVLT/#manual)
 * [Citation](https://github.com/jaclew/IVLT/#citation)
 * [Licence](https://github.com/jaclew/IVLT/#licence)

@@ -20,7 +20,7 @@ Asd3
 
 ## Citation
 If you use ILVT in your research, please site the following publication:
-> Auth1, Auth2, Auth3, Auth4
+> Auth1, Auth2, Auth3, Auth4.
 > *Journal*, **Volume**:<pages>. [doi:<DOI_link>][doi]
 
 ## Licence

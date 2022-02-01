@@ -23,9 +23,10 @@ Follow below instructions to install on Linux.
 Follow below instructions to install on Windows.
 1. Enable Windows Subsystem for Linux (WSL) and install a Linux-distribution (e.g, Ubuntu)
    * Go to Windows Features
-    * Turn on “Windows Subsystem for Linux” 
+     * Turn on “Windows Subsystem for Linux” 
    * Reboot 
-   * Windows store -> Linux (Ubuntu [version 20.04]) 
+   * Go to Windows store
+     * Install Linux (Ubuntu [version 20.04]) 
    * Launch WSL from start-menu 
 
 ## Manual

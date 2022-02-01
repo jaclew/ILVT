@@ -2,11 +2,21 @@
 
 ## Table of Contents
 * [Introduction](https://github.com/jaclew/IVLT/#introduction)
+* [Installation](https://github.com/jaclew/IVLT/#installation)
+* - [Linux](https://github.com/jaclew/IVLT/#installation-linux)
+* - [Windows](https://github.com/jaclew/IVLT/#installation-windows)
 * [Test](https://github.com/jaclew/IVLT/#test)
 
 
-# Introduction
+## Introduction
 Interactive Long-Read Visualization Tool
 
-# Test
+## Installation
+Asd1
+### Installation (Linux)
+Asd2
+### Installation (Windows)
+Asd3
+
+## Test
 Asd

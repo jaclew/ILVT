@@ -17,10 +17,15 @@ Interactive Long-Read Visualization Tool
 ILVT runs on Linux natively and can be run under Windows Subsystem for Linux (WSL).
 
 ### Installing on Linux
-Asd2
+Follow below instructions to install on Linux.
 
 ### Installing on Windows
-Asd3
+Follow below instructions to install on Windows.
+1. Enable Windows Subsystem for Linux (WSL) and install a Linux-distribution (e.g, Ubuntu)
+* * Windows Features -> Turn on “Windows Subsystem for Linux” 
+* * Reboot 
+* * Windows store -> Linux (Ubuntu [version 20.04]) 
+* * Launch WSL from start-menu 
 
 ## Manual
 Documentation and example use cases are available in the <a href="https://github.com/jaclew/IVLT/raw/main/reference_manual.docx" target="_blank">reference manual</a>.

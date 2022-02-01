@@ -23,7 +23,7 @@ Asd2
 Asd3
 
 ## Manual
-Documentation and example use cases are available in the <a href="https://github.com/jaclew/ILVT/reference_manual.docx" target="_blank">reference manual</a>.
+Documentation and example use cases are available in the <a href="https://github.com/jaclew/IVLT/blob/main/reference_manual.docx" target="_blank">reference manual</a>.
 
 ## Citation
 If you use ILVT in your research, please site the following publication:

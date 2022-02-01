@@ -79,11 +79,12 @@ Launch ILVT with Python version 3 by executing the following command:
 If you run on Windows and using WSL, make sure you have started the X-server (for instructions above).
 
 ## Manual
-Documentation and example use cases are available in the <a href="https://github.com/jaclew/IVLT/raw/main/reference_manual.docx" target="_blank">reference manual</a>.
+Documentation and examples are available in the <a href="https://github.com/jaclew/IVLT/raw/main/reference_manual.docx" target="_blank">reference manual</a>.
 
 ## Citation
 If you use ILVT in your research, please site the following publication:
 > Auth1, Auth2, Auth3, Auth4.
+> 
 > *Journal*, **Volume**:<pages>. [doi:<DOI_link>][doi]
 
 ## Licence

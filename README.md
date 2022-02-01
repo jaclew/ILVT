@@ -19,6 +19,32 @@ ILVT runs on Linux natively and can be run under Windows Subsystem for Linux (WS
 ### Installing on Linux
 Follow below instructions to install on Linux.
 
+#### Python version and dependencies
+ILVT runs on Python version 3 (installed by default in Ubuntu 20.04) and depends on the following libraries (available on pip, package installer for Python)
+* Pysam 
+* PyQt5 
+* Matplotlib 
+
+#### Installing dependencies via pip
+pip can be installed under Ubuntu by executing the following commands:
+* > sudo apt update 
+* > sudo apt install python3-pip 
+
+The dependencies can be installed by executing the following commands:
+* > pip install pysam
+* > pip install pyqt5 
+* > pip install matplotlib 
+
+#### Installing ILVT
+1. Clone ILVT to your location (e.g., under your /home directory)
+   * > cd ~
+   * > git clone https://github.com/jaclew/ILVT
+2. Launching ILVT
+   * Go to your ILVT folder
+     * > cd ILVT
+   * > Launch with Python 3
+     * > python read_painter.py
+
 ### Installing on Windows
 Follow below instructions to install on Windows.
 1. Enable Windows Subsystem for Linux (WSL) and install a Linux-distribution (e.g, Ubuntu)
@@ -30,11 +56,13 @@ Follow below instructions to install on Windows.
    * Launch WSL from start-menu 
 2. Installing and launching X-server to launch GUI-applications in WSL
    * Download and install <a href="https://sourceforge.net/projects/vcxsrv/" target="_blank">VcXsrv</a> (sourceforge).
-   * To enable the display in WSL, type the following into the terminal
-     * > Type in terminal: “export DISPLAY=localhost:0.0” (or append to file ~/.bashrc and restart WSL) 
+   * To enable the display in WSL, type the following into the WSL terminal (needs to be done on every new start)
+     * > export DISPLAY=localhost:0.0
+     * The above line can be appended to file ~/.bashrc to avoid exporting the display with the above command. Restart the WSL to apply the command.
    * To launch the X-server, navigate to installation folder (Default path C:/Program Files/VcXsrv)
-     * Launch windows terminal (Shift+F10 -> Open Terminal/PowerShell Here)
-     * Type “vcxsrv.exe -multiwindow -clipboard -wgl” into windows terminal to start VcXsrv 
+     * Launch a Windows terminal (Shift+F10 -> Open Terminal/PowerShell Here)
+     * Type “vcxsrv.exe -multiwindow -clipboard -wgl” into the Windows terminal to start VcXsrv
+3. Now follow the install instructions for Linux above.
 
 ## Manual
 Documentation and example use cases are available in the <a href="https://github.com/jaclew/IVLT/raw/main/reference_manual.docx" target="_blank">reference manual</a>.

@@ -29,11 +29,14 @@ ILVT runs on Python version 3 (installed by default in Ubuntu 20.04) and depends
 #### Installing dependencies via pip
 pip can be installed under Ubuntu by executing the following commands:
   > sudo apt update 
+  > 
   > sudo apt install python3-pip 
 
 The dependencies can be installed by executing the following commands:
   > pip install pysam
+  > 
   > pip install pyqt5 
+  > 
   > pip install matplotlib 
 
 #### Installing ILVT

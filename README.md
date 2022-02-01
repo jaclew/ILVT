@@ -57,13 +57,13 @@ Follow below instructions to install on Windows.
    * Reboot 
    * Go to Windows store
      * Install Ubuntu (version 20.04)
-   * Launch WSL from start-menu 
+   * Launch WSL (Ubuntu) from the start-menu 
 2. Installing and launching X-server to launch GUI-applications in WSL
    * Download and install <a href="https://sourceforge.net/projects/vcxsrv/" target="_blank">VcXsrv</a> (sourceforge).
-   * To enable the display in WSL, type the following into the WSL terminal (needs to be done on every new start)
+   * To enable the display in WSL, type the following into the WSL terminal (Note: needs to be done on every new start):
        > export DISPLAY=localhost:0.0
      * The above line can be appended to file ~/.bashrc to avoid exporting the display with the above command. Restart the WSL to apply the command.
-   * To launch the X-server, navigate to installation folder (Default path C:/Program Files/VcXsrv)
+   * To launch the X-server, navigate to installation folder (Default path C:/Program Files/VcXsrv):
      * Launch a Windows terminal (Shift+F10 -> Open Terminal/PowerShell Here) and type the following to start VcXsrv
        > vcxsrv.exe -multiwindow -clipboard -wgl
 3. Now follow the install instructions for Linux above.

@@ -1,19 +1,19 @@
-# <img src="https://github.com/jaclew/IVLT/blob/main/ILVT.png" alt="Interactive Long-read Visualization Tool" width="500" height="74" align="middle">
+# <img src="https://github.com/jaclew/ILVT/blob/main/ILVT.png" alt="Interactive Long-read Visualization Tool" width="500" height="74" align="middle">
 
 ## Table of Contents
-* [Introduction](https://github.com/jaclew/IVLT/#introduction)
-  * [Features](https://github.com/jaclew/IVLT/#features)
-  * [Use cases](https://github.com/jaclew/IVLT/#use-cases)
-* [Quick-start guide](https://github.com/jaclew/IVLT/#quick-start-guide)
-* [Installation](https://github.com/jaclew/IVLT/#installation)
-  * [Linux](https://github.com/jaclew/IVLT/#installing-on-linux)
-    * [Python version and dependencies](https://github.com/jaclew/IVLT/#python-version-and-dependencies)
-    * [Installing dependencies via pip](https://github.com/jaclew/IVLT/#installing-dependencies-via-pip)
-    * [Installing ILVT](https://github.com/jaclew/IVLT/#installing-ILVT)
-  * [Windows](https://github.com/jaclew/IVLT/#installing-on-windows)
-* [Manual](https://github.com/jaclew/IVLT/#manual)
-* [Citation](https://github.com/jaclew/IVLT/#citation)
-* [Licence](https://github.com/jaclew/IVLT/#licence)
+* [Introduction](https://github.com/jaclew/ILVT/#introduction)
+  * [Features](https://github.com/jaclew/ILVT/#features)
+  * [Use cases](https://github.com/jaclew/ILVT/#use-cases)
+* [Quick-start guide](https://github.com/jaclew/ILVT/#quick-start-guide)
+* [Installation](https://github.com/jaclew/ILVT/#installation)
+  * [Linux](https://github.com/jaclew/ILVT/#installing-on-linux)
+    * [Python version and dependencies](https://github.com/jaclew/ILVT/#python-version-and-dependencies)
+    * [Installing dependencies via pip](https://github.com/jaclew/ILVT/#installing-dependencies-via-pip)
+    * [Installing ILVT](https://github.com/jaclew/ILVT/#installing-ILVT)
+  * [Windows](https://github.com/jaclew/ILVT/#installing-on-windows)
+* [Manual](https://github.com/jaclew/ILVT/#manual)
+* [Citation](https://github.com/jaclew/ILVT/#citation)
+* [Licence](https://github.com/jaclew/ILVT/#licence)
 
 
 ## Introduction
@@ -88,7 +88,7 @@ Follow below instructions to install on Windows.
 3. Now follow the install instructions for Linux above.
 
 ## Manual
-Documentation and examples (using a test dataset) are available in the reference manual, located in the file list above and at the following links: (<a href="https://github.com/jaclew/IVLT/raw/main/reference_manual.docx" target="_blank">reference manual</a>, <a href="https://github.com/jaclew/IVLT/tree/main/test_data" target="_blank">test dataset</a>).
+Documentation and examples (using a test dataset) are available in the reference manual, located in the file list above and at the following links: (<a href="https://github.com/jaclew/ILVT/raw/main/reference_manual.docx" target="_blank">reference manual</a>, <a href="https://github.com/jaclew/ILVT/tree/main/test_data" target="_blank">test dataset</a>).
 
 ## Citation
 If you use ILVT in your research, please site the following publication:

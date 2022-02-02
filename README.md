@@ -2,13 +2,13 @@
 
 ## Table of Contents
 * [Introduction](https://github.com/jaclew/IVLT/#introduction)
+* [Quick-start guide](https://github.com/jaclew/IVLT/#quick-start-guide)
 * [Installation](https://github.com/jaclew/IVLT/#installation)
   * [Linux](https://github.com/jaclew/IVLT/#installing-on-linux)
     * [Python version and dependencies](https://github.com/jaclew/IVLT/#python-version-and-dependencies)
     * [Installing dependencies via pip](https://github.com/jaclew/IVLT/#installing-dependencies-via-pip)
     * [Installing ILVT](https://github.com/jaclew/IVLT/#installing-ILVT)
   * [Windows](https://github.com/jaclew/IVLT/#installing-on-windows)
-* [Launching](https://github.com/jaclew/IVLT/#launching)
 * [Manual](https://github.com/jaclew/IVLT/#manual)
 * [Citation](https://github.com/jaclew/IVLT/#citation)
 * [Licence](https://github.com/jaclew/IVLT/#licence)
@@ -16,6 +16,12 @@
 
 ## Introduction
 Interactive Long-Read Visualization Tool
+
+## Quick-start guide
+ILVT is written in Python version 3 and depends on Python libraries Pysam, PyQt5 and Matplotlib. To launch the software, execute the following command:
+> python <path_to_ILVT>/read_painter.py
+
+If you run on Windows, see instructions below on how to install Windows Subsystem for Linux (WSL) and X-server (to launch graphical user interfaces under WSL).
 
 ## Installation
 ILVT runs on Linux natively and can be run under Windows Subsystem for Linux (WSL).
@@ -62,12 +68,6 @@ Follow below instructions to install on Windows.
      * Launch a Windows terminal (Shift+F10 -> Open Terminal/PowerShell Here) and type the following to start VcXsrv
        > vcxsrv.exe -multiwindow -clipboard -wgl
 3. Now follow the install instructions for Linux above.
-
-## Launching
-Launch ILVT with Python version 3 by executing the following command:
-> python <path_to_ILVT>/read_painter.py
-
-If you run on Windows and using WSL, make sure you have started the X-server (for instructions above).
 
 ## Manual
 Documentation and examples (using a test dataset) are available in the reference manual, located in the file list above and at the following links: (<a href="https://github.com/jaclew/IVLT/raw/main/reference_manual.docx" target="_blank">reference manual</a>, <a href="https://github.com/jaclew/IVLT/tree/main/test_data" target="_blank">test dataset</a>).

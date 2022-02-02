@@ -15,9 +15,21 @@
 
 
 ## Introduction
-Interactive Long-Read Visualization Tool (ILVT) is a software with graphical user interface that enables a user (without bioinformatic expertise) to explore genomic rearrangements from long-read alignments. Rearrangements can be discovered by the user through interaction with individual reads (selected based on various criteria; such as alignment length and overlap to repetitive sequence, or in a specific region or gene) or on a genome wide scale. It takes a couple of minutes to load the alignments of a Nanopore flowcell of cancer data on a modern laptop, and once loaded, the user can interact with reads within seconds.
+Interactive Long-Read Visualization Tool (ILVT) is a software with graphical user interface that enables a user (without bioinformatic expertise) to explore genomic rearrangements from long-read alignments. Rearrangements can be discovered by the user through interaction with individual reads (selected based on various criteria; such as alignment length and overlap to repetitive sequence, or in a specific region or gene) or on a genome-wide scale. It takes a couple of minutes to load the alignments of a Nanopore flowcell of cancer data on a modern laptop, and once loaded, the user can interact with reads within seconds.
 
 ILVT minimally requires an alignment file and additional annotation files (gene GTF/GFF- and repetitive RepeatMasker-file) and variant call file (VCF) can be loaded.
+
+### Features
+* Interactive read selection and drawing
+* Read lookup in specific regions (or genes)
+* Identifying rearrangements genome-wide
+* All drawings can be exported (e.g., in vector format)
+* Convenient export of read names and (reference and query) coordinates
+
+### Use cases
+* Exploration of a new dataset to guide subsequent analysis design
+* Rapid investigation of specific regions (e.g., gene fusions)
+* Visualization of complex rearrangements (e.g., nested rearrangements in a cancer cell line)
 
 ## Quick-start guide
 ILVT is written in Python version 3 and depends on Python libraries Pysam, PyQt5 and Matplotlib. Download the software files to your location and launch the software with Python:

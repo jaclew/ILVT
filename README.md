@@ -2,6 +2,8 @@
 
 ## Table of Contents
 * [Introduction](https://github.com/jaclew/IVLT/#introduction)
+  * [Features](https://github.com/jaclew/IVLT/#features)
+  * [Use cases](https://github.com/jaclew/IVLT/#use-cases)
 * [Quick-start guide](https://github.com/jaclew/IVLT/#quick-start-guide)
 * [Installation](https://github.com/jaclew/IVLT/#installation)
   * [Linux](https://github.com/jaclew/IVLT/#installing-on-linux)

@@ -39,15 +39,10 @@ The dependencies can be installed by executing the following commands:
   > pip install pysam pyqt5 matplotlib
 
 #### Installing ILVT
-1. Clone ILVT to your target location (e.g., under your /home directory)
-     > cd ~
-     > 
+1. Clone ILVT to your target location
      > git clone https://github.com/jaclew/ILVT
-2. Launching ILVT
-   * Go to your ILVT folder
-       > cd ILVT
-   * Launch with Python 3
-       > python read_painter.py
+2. Launch ILVT using Python 3
+   > python <path_to_ILVT>/read_painter.py
 
 ### Installing on Windows
 Follow below instructions to install on Windows.

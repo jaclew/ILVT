@@ -1,4 +1,4 @@
-# <img src="https://github.com/jaclew/ILVT/blob/main/ILVT.png" alt="Interactive Long-read Visualization Tool" width="500" height="74" align="middle">
+# <img src="https://github.com/jaclew/ILVT/blob/main/logo_full.png" alt="Interactive Long-read Visualization Tool" width="387" height="195" align="middle">
 
 ## Table of Contents
 * [Introduction](https://github.com/jaclew/ILVT/#introduction)

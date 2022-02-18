@@ -4,7 +4,9 @@
 * [Introduction](https://github.com/jaclew/ILVT/#introduction)
   * [Features](https://github.com/jaclew/ILVT/#features)
   * [Use cases](https://github.com/jaclew/ILVT/#use-cases)
-* [Quick-start guide](https://github.com/jaclew/ILVT/#quick-start-guide)
+* [Quick-start](https://github.com/jaclew/ILVT/#quick-start)
+  * [Setup](https://github.com/jaclew/ILVT/#setup)
+  * [Usage](https://github.com/jaclew/ILVT/#usage)
 * [Installation](https://github.com/jaclew/ILVT/#installation)
   * [Linux](https://github.com/jaclew/ILVT/#installing-on-linux)
     * [Python version and dependencies](https://github.com/jaclew/ILVT/#python-version-and-dependencies)
@@ -33,13 +35,25 @@ ILVT minimally requires an alignment file and additional annotation files (gene 
 * Rapid investigation of specific regions (e.g., gene fusions)
 * Visualization of complex rearrangements (e.g., nested rearrangements in a cancer cell line)
 
-## Quick-start guide
+## Quick-start
+### Setup
 ILVT is written in Python version 3 and depends on Python libraries Pysam, PyQt5 and Matplotlib. Download the software files to your location and launch the software with Python:
 > git clone https://github.com/jaclew/ILVT
 > 
 > python <path_to_ILVT>/read_painter.py
 
 If you run on Windows, see instructions below on how to install Windows Subsystem for Linux (WSL) and X-server (to launch graphical user interfaces under WSL).
+
+### Usage
+The minimal requirement to use the software is an alignment file. To import the alignment file, press **File** in the menu bar then **Import BAM**. The software will now load alignments of reads. This action may take some time depending on the size of the imported alignment file but enable fast display of reads once loaded. Optional import of annotation (RepeatMasker and GTF/GFF) and variant-call files (VCF) are loaded similarly.
+
+Reads are first discovered (**Find reads** button in the right-side panel) according to some selection criteria (**Read selection**) to populate the Read-selection list where a read is drawn upon a left click. Right clicking on reads will add these to the current plot and this operation is useful to distinguish a putative rearrangement as heterogeneous or an artefact. (Right-clicked reads are only drawn within the boundaries of the current left-clicked reads and is increased or decreased under **View -> Show settings**).
+
+Drawn reads appear in the plotting area. The user can zoom in by plus (+) or negative (-) keyboard buttons. Shift and alt modifiers control individual X and Y axis, respectively. Navigation is done by dragging the cursor inside the plot area. The view is resettable via menu bar **View -> Reset Zoom**.
+
+To control what is drawn into the plotting area, settings can be modified under the **Show** section in the right panel. To update the current plot, click the **Update** button. Genes and variants can optionally be displayed if these files have been loaded into the software.
+
+The Genome overview module is launched via the menu bar, **Genome Overview -> Launch module** and opens a secondary window. This module is useful to visualize all large-scale rearrangements in the genome and find the reads involved. The module works by binning the genome and querying alignments that are adjacent on the read but which overlap two non-adjacent bins.
 
 ## Installation
 ILVT runs on Linux natively and can be run under Windows Subsystem for Linux (WSL).

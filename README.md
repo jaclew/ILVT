@@ -40,7 +40,7 @@ ILVT minimally requires an alignment file and additional annotation files (gene 
 ILVT is written in Python version 3 and depends on Python libraries Pysam, PyQt5 and Matplotlib. Download the software files to your location and launch the software with Python:
 > git clone https://github.com/jaclew/ILVT
 > 
-> python <path_to_ILVT>/read_painter.py
+> python <path_to_ILVT>/ilvt.py
 
 If you run on Windows, see instructions below on how to install Windows Subsystem for Linux (WSL) and X-server (to launch graphical user interfaces under WSL).
 
@@ -80,7 +80,7 @@ The dependencies can be installed by executing the following commands:
 1. Clone ILVT to your target location
      > git clone https://github.com/jaclew/ILVT
 2. Launch ILVT using Python 3
-   > python <path_to_ILVT>/read_painter.py
+   > python <path_to_ILVT>/ilvt.py
 
 ### Installing on Windows
 Follow below instructions to install on Windows.

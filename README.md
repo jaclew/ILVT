@@ -12,6 +12,7 @@
     * [Python version and dependencies](https://github.com/jaclew/ILVT/#python-version-and-dependencies)
     * [Installing dependencies via pip](https://github.com/jaclew/ILVT/#installing-dependencies-via-pip)
     * [Installing ILVT](https://github.com/jaclew/ILVT/#installing-ILVT)
+    * [ILVT files](https://github.com/jaclew/ILVT/#ILVT-files)
   * [Windows](https://github.com/jaclew/ILVT/#installing-on-windows)
 * [Manual](https://github.com/jaclew/ILVT/#manual)
 * [Citation](https://github.com/jaclew/ILVT/#citation)
@@ -81,6 +82,14 @@ The dependencies can be installed by executing the following commands:
      > git clone https://github.com/jaclew/ILVT
 2. Launch ILVT using Python 3
    > python <path_to_ILVT>/ilvt.py
+
+#### ILVT files
+The ILVT software consists of the following files.
+    > ilvt.py (software code)
+    > 
+    > read_painter.ui and genome_overview.ui (GUI files)
+    > 
+    > logo.png (thumbnail)
 
 ### Installing on Windows
 Follow below instructions to install on Windows.

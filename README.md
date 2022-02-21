@@ -85,11 +85,11 @@ The dependencies can be installed by executing the following commands:
 
 #### ILVT files
 The ILVT software consists of the following files.
-    > ilvt.py (software code)
-    > 
-    > read_painter.ui and genome_overview.ui (GUI files)
-    > 
-    > logo.png (thumbnail)
+> ilvt.py (software code)
+> 
+> read_painter.ui and genome_overview.ui (GUI files)
+> 
+> logo.png (thumbnail)
 
 ### Installing on Windows
 Follow below instructions to install on Windows.

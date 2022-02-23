@@ -111,7 +111,7 @@ Follow below instructions to install on Windows.
 3. Now follow the install instructions for Linux above.
 
 ## Manual
-Documentation and examples (using a test dataset) are available in the reference manual, located in the file list above and at the following links: (<a href="https://github.com/jaclew/ILVT/raw/main/reference_manual.docx" target="_blank">reference manual</a>, <a href="https://github.com/jaclew/ILVT/tree/main/test_data" target="_blank">test dataset</a>).
+Documentation and examples (using a test dataset, composed of selected reads from Sakamoto et al. Genome Res. 2020) are available in the reference manual, located in the file list above and at the following links: (<a href="https://github.com/jaclew/ILVT/raw/main/reference_manual.docx" target="_blank">reference manual</a>, <a href="https://github.com/jaclew/ILVT/tree/main/test_data" target="_blank">test dataset</a>).
 
 ## Citation
 If you use ILVT in your research, please site the following publication:

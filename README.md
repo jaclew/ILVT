@@ -13,6 +13,7 @@
     * [Installing dependencies via pip](https://github.com/jaclew/ILVT/#installing-dependencies-via-pip)
     * [Installing ILVT](https://github.com/jaclew/ILVT/#installing-ILVT)
     * [ILVT files](https://github.com/jaclew/ILVT/#ILVT-files)
+  * [MacOS](https://github.com/jaclew/ILVT/#installing-on-macos)
   * [Windows](https://github.com/jaclew/ILVT/#installing-on-windows)
 * [Manual](https://github.com/jaclew/ILVT/#manual)
 * [Citation](https://github.com/jaclew/ILVT/#citation)
@@ -90,6 +91,17 @@ The ILVT software consists of the following files.
 > read_painter.ui and genome_overview.ui (GUI files)
 > 
 > logo.png (thumbnail)
+
+### Installing on MacOS
+Installation on MacOS can be done using Homebrew (https://brew.sh/).
+
+Install Python (version 3). Pip should be included in the Python installation.
+> brew install python3
+
+Install git
+> brew install git
+
+Now follow the instructions for installation under Linux.
 
 ### Installing on Windows
 Follow below instructions to install on Windows.

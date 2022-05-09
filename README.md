@@ -98,7 +98,7 @@ Installation on MacOS can be done using Homebrew (https://brew.sh/).
 Install Python (version 3). Pip should be included in the Python installation.
 > brew install python3
 
-Install git
+Install git.
 > brew install git
 
 Now follow the instructions for installation under Linux.
